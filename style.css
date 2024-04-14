@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    
+}
+* a {
+    text-decoration: none;
+    color:rgb(25, 115, 151);
+}
+.container {
+    display: grid;
+    grid-template-rows: 1.8fr 1.2fr 1fr;
+    height: 120px;
+    width: 100%;
+}
+.topbars {
+    border: 1px solid black;
+}
+.bar2 {
+    grid-row: 2;
+}
+.bar3 {
+    grid-row: 3;
+}
+.bar1 {
+    grid-row: 1;
+    background-color: rgb(6, 6, 10);
+    display: flex;
+    color: white;
+    align-items: center;
+    
+}
+.bar1 img {
+    height: 40px;
+    padding-top: 7px;
+    padding-left: 3px;
+}
+.tlogo {
+    width: fit-content;
+    margin-right: 12px;
+}
+.tlogo:hover {
+    border: 1px solid white;
+}
+.tadress {
+    width: 8%;
+    font-size: small;
+}
+.tadress:hover {
+    border: 1px solid white;
+}
+.tsearchbar {
+    width: 50%;
+    height: 70%;
+    display: flex;
+}
+.tsearchbar input[type=text] {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+.but1 {
+    width: 10%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: lightgrey;
+}
+.but1:hover {
+    background-color: rgb(185, 185, 185);
+}
+.but2 {
+    width: 10%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(217, 178, 50);
+    align-items: center;
+    justify-content: center;
+}
+.but2:hover {
+    background-color: rgb(190, 155, 40);
+}
+.tlang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.tlang:hover {
+    border: 1px solid white;
+    padding: 8px;
+}
+.tlang img {
+   height: 1.5em;
+   width:auto;
+   margin-right: 5px;
+}
+.tacc {
+    font-size: small;
+    margin-right: 20px;
+}
+.tacc:hover {
+    border: 1px solid white;
+    padding: 8px;
+}
+.torders {
+    font-size: small;
+    margin-right: 50px;
+    padding:8px;
+}
+.torders:hover {
+    border: 1px solid white;
+}
+.tcart:hover {
+    border: 1px solid white;
+}
+.bar2 {
+    background-color: rgb(12, 12, 68);
+    color: white;
+    padding: 10px;
+    font-size: small;
+  }
+  
+  .bar2 a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 10px;
+  }
+  
+  .bar2 a:hover {
+    border: 1px solid white;
+  }
+  .bar3 {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size:75%;
+  }
+  
+  .bar3 a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .bar3 a:hover {
+    color: orange;
+  }
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+  }
+  .btrc {
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+ }
+  .sidebar img {
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+    border: 1px rgb(3, 3, 56) solid;
+    border-radius: 5px;
+    margin: 5px 10px;
+  }
+  .container2 {
+    width: 35%;
+    height:430px;
+    background-image: url(./im1.jpg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    position: relative;
+    margin-right: 10px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+  }
+  .maincont {
+    display: flex;
+    position: relative;
+  }
+  #upld {
+    position:absolute;
+    top: 0;
+    right: 0;
+    border: none;
+  }
+  .container3 {
+    width: 43%;
+    height: 200vh;
+  }
+  .a1 {
+    display: flex;
+  }
+  .colorbar {
+    display: flex;
+  }
+  .colorbar img {
+    height: 35px;
+    margin-right: 5px;
+    border: 1px solid darkgray;
+  }
+  .container4 {
+    border: 1px solid gray;
+    padding: 10px;
+    max-width: 22%;
+    text-align: center;
+  }* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    
+}
+* a {
+    text-decoration: none;
+    color:rgb(25, 115, 151);
+}
+.container {
+    display: grid;
+    grid-template-rows: 1.8fr 1.2fr 1fr;
+    height: 120px;
+    width: 100%;
+}
+.topbars {
+    border: 1px solid black;
+}
+.bar2 {
+    grid-row: 2;
+}
+.bar3 {
+    grid-row: 3;
+}
+.bar1 {
+    grid-row: 1;
+    background-color: rgb(6, 6, 10);
+    display: flex;
+    color: white;
+    align-items: center;
+    
+}
+.bar1 img {
+    height: 40px;
+    padding-top: 7px;
+    padding-left: 3px;
+}
+.tlogo {
+    width: fit-content;
+    margin-right: 12px;
+}
+.tlogo:hover {
+    border: 1px solid white;
+}
+.tadress {
+    width: 8%;
+    font-size: small;
+}
+.tadress:hover {
+    border: 1px solid white;
+}
+.tsearchbar {
+    width: 50%;
+    height: 70%;
+    display: flex;
+}
+.tsearchbar input[type=text] {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+.but1 {
+    width: 10%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: lightgrey;
+}
+.but1:hover {
+    background-color: rgb(185, 185, 185);
+}
+.but2 {
+    width: 10%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(217, 178, 50);
+    align-items: center;
+    justify-content: center;
+}
+.but2:hover {
+    background-color: rgb(190, 155, 40);
+}
+.tlang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.tlang:hover {
+    border: 1px solid white;
+    padding: 8px;
+}
+.tlang img {
+   height: 1.5em;
+   width:auto;
+   margin-right: 5px;
+}
+.tacc {
+    font-size: small;
+    margin-right: 20px;
+}
+.tacc:hover {
+    border: 1px solid white;
+    padding: 8px;
+}
+.torders {
+    font-size: small;
+    margin-right: 50px;
+    padding:8px;
+}
+.torders:hover {
+    border: 1px solid white;
+}
+.tcart:hover {
+    border: 1px solid white;
+}
+.bar2 {
+    background-color: rgb(12, 12, 68);
+    color: white;
+    padding: 10px;
+    font-size: small;
+  }
+  
+  .bar2 a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 10px;
+  }
+  
+  .bar2 a:hover {
+    border: 1px solid white;
+  }
+  .bar3 {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size:75%;
+  }
+  
+  .bar3 a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .bar3 a:hover {
+    color: orange;
+  }
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+  }
+  .btrc {
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+ }
+  .sidebar img {
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+    border: 1px rgb(3, 3, 56) solid;
+    border-radius: 5px;
+    margin: 5px 10px;
+  }
+  .container2 {
+    width: 35%;
+    height:430px;
+    background-image: url(./im1.jpg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    position: relative;
+    margin-right: 10px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+  }
+  .maincont {
+    display: flex;
+    position: relative;
+  }
+  #upld {
+    position:absolute;
+    top: 0;
+    right: 0;
+    border: none;
+  }
+  .container3 {
+    width: 43%;
+    height: 200vh;
+  }
+  .a1 {
+    display: flex;
+  }
+  .colorbar {
+    display: flex;
+  }
+  .colorbar img {
+    height: 35px;
+    margin-right: 5px;
+    border: 1px solid darkgray;
+  }
+  .container4 {
+    border: 1px solid gray;
+    padding: 10px;
+    max-width: 22%;
+    text-align: center;
+  }
